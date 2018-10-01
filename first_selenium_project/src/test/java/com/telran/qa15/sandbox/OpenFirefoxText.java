@@ -14,7 +14,7 @@ public class OpenFirefoxText {
 
     @BeforeMethod
     public void setUp(){
-        wd=new EdgeDriver();
+        wd=new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
