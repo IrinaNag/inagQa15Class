@@ -27,35 +27,39 @@
     <session id="1227974936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="427" />
+          <entry key="JAVA" value="853" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="2" />
-          <entry key="java" value="7" />
+          <entry key="gradle" value="3" />
+          <entry key="java" value="19" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="5" />
-          <entry key="java" value="427" />
+          <entry key="java" value="853" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="7" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -63,7 +67,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework2/WikiSearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -379,16 +396,35 @@
         <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/OpenFirefoxText.java" />
         <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByEdge.java" />
         <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByFireFox.java" />
-        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByChrome.java" />
         <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByBrowsers.java" />
+        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/Ebay.java" />
+        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByChrome.java" />
+        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson2/WikiHomePageTests.java" />
+        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson2/TestBase.java" />
+        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/TestBase.java" />
+        <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework2/WikiSearchTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="224" />
-    <option name="y" value="32" />
-    <option name="width" value="971" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="24" />
+    <option name="y" value="30" />
+    <option name="width" value="1044" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -396,7 +432,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,12 +448,6 @@
               <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="first_selenium_project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_selenium_project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -435,29 +464,28 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qa15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_selenium_project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa15" type="462c0819:PsiDirectoryNode" />
-              <item name="homework1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538427211568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538934669464" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../etarQa15Class" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telran.qa15.lesson2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -471,47 +499,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenWikiByEdge.openTest">
-    <configuration name="OpenChromeTest.testOpenBrowser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.OpenChromeTest" />
-      <option name="METHOD_NAME" value="testOpenBrowser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenFirefoxText.openSiteTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WikiSearchTest.testSearchingWikiJavaPage">
+    <configuration name="Ebay.openTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_selenium_project_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.qa15.sandbox.*" />
+          <option name="PATTERN" value="com.telran.qa15.lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.qa15.sandbox" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.OpenFirefoxText" />
-      <option name="METHOD_NAME" value="openSiteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenWikiByChrome.openTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.qa15.homework1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.homework1" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.homework1.OpenWikiByChrome" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.lesson1.Ebay" />
       <option name="METHOD_NAME" value="openTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -538,17 +536,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenWikiByFireFox.openTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WikiHomePageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_selenium_project_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.qa15.homework1.*" />
+          <option name="PATTERN" value="com.telran.qa15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.homework1" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.homework1.OpenWikiByFireFox" />
-      <option name="METHOD_NAME" value="openTest" />
+      <option name="PACKAGE_NAME" value="com.telran.qa15.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.lesson2.WikiHomePageTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="first_selenium_project_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa15.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.lesson2.WikiHomePageTests" />
+      <option name="METHOD_NAME" value="TestOpeningEnglishWiki" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikiSearchTest.testSearchingWikiJavaPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="first_selenium_project_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa15.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa15.homework2" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.homework2.WikiSearchTest" />
+      <option name="METHOD_NAME" value="testSearchingWikiJavaPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -557,19 +589,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.OpenChromeTest.testOpenBrowser" />
-      <item itemvalue="TestNG.OpenFirefoxText.openSiteTest" />
-      <item itemvalue="TestNG.OpenWikiByChrome.openTest" />
-      <item itemvalue="TestNG.OpenWikiByFireFox.openTest" />
       <item itemvalue="TestNG.OpenWikiByEdge.openTest" />
+      <item itemvalue="TestNG.Ebay.openTest" />
+      <item itemvalue="TestNG.WikiHomePageTests.TestOpeningEnglishWiki" />
+      <item itemvalue="TestNG.WikiHomePageTests" />
+      <item itemvalue="TestNG.WikiSearchTest.testSearchingWikiJavaPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WikiSearchTest.testSearchingWikiJavaPage" />
+        <item itemvalue="TestNG.WikiHomePageTests.TestOpeningEnglishWiki" />
+        <item itemvalue="TestNG.WikiHomePageTests" />
+        <item itemvalue="TestNG.Ebay.openTest" />
         <item itemvalue="TestNG.OpenWikiByEdge.openTest" />
-        <item itemvalue="TestNG.OpenWikiByFireFox.openTest" />
-        <item itemvalue="TestNG.OpenWikiByChrome.openTest" />
-        <item itemvalue="TestNG.OpenFirefoxText.openSiteTest" />
-        <item itemvalue="TestNG.OpenChromeTest.testOpenBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -587,41 +619,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenChromeTest_testOpenBrowser - 2018.10.01 at 11h 34m 19s.xml">
-      <configuration name="OpenChromeTest.testOpenBrowser" configurationId="TestNG" />
+    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.07 at 00h 47m 58s.xml">
+      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeTest - 2018.10.01 at 20h 31m 29s.xml">
-      <configuration name="OpenChromeTest" configurationId="TestNG" />
+    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.07 at 00h 51m 28s.xml">
+      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeTest_testOpenBrowser - 2018.10.01 at 22h 36m 52s.xml">
-      <configuration name="OpenChromeTest.testOpenBrowser" configurationId="TestNG" />
+    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.07 at 00h 53m 46s.xml">
+      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxText_openSiteTest - 2018.10.01 at 22h 38m 09s.xml">
-      <configuration name="OpenFirefoxText.openSiteTest" configurationId="TestNG" />
+    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.07 at 00h 55m 00s.xml">
+      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxText_openSiteTest - 2018.10.01 at 22h 46m 47s.xml">
-      <configuration name="OpenFirefoxText.openSiteTest" configurationId="TestNG" />
+    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.07 at 00h 56m 42s.xml">
+      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxText_openSiteTest - 2018.10.01 at 23h 13m 10s.xml">
-      <configuration name="OpenFirefoxText.openSiteTest" configurationId="TestNG" />
+    <history-entry file="WikiSearchTest_testSearchingWikiJavaPage - 2018.10.07 at 01h 53m 55s.xml">
+      <configuration name="WikiSearchTest.testSearchingWikiJavaPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxText_openSiteTest - 2018.10.01 at 23h 14m 47s.xml">
-      <configuration name="OpenFirefoxText.openSiteTest" configurationId="TestNG" />
+    <history-entry file="WikiSearchTest_testSearchingWikiJavaPage - 2018.10.07 at 01h 59m 02s.xml">
+      <configuration name="WikiSearchTest.testSearchingWikiJavaPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenWikiByChrome_openTest - 2018.10.01 at 23h 41m 39s.xml">
-      <configuration name="OpenWikiByChrome.openTest" configurationId="TestNG" />
+    <history-entry file="WikiSearchTest_testSearchingWikiJavaPage - 2018.10.07 at 02h 00m 38s.xml">
+      <configuration name="WikiSearchTest.testSearchingWikiJavaPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenWikiByFireFox_openTest - 2018.10.01 at 23h 42m 31s.xml">
-      <configuration name="OpenWikiByFireFox.openTest" configurationId="TestNG" />
+    <history-entry file="WikiSearchTest_testSearchingWikiJavaPage - 2018.10.07 at 02h 04m 07s.xml">
+      <configuration name="WikiSearchTest.testSearchingWikiJavaPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenWikiByEdge_openTest - 2018.10.01 at 23h 43m 12s.xml">
-      <configuration name="OpenWikiByEdge.openTest" configurationId="TestNG" />
+    <history-entry file="WikiSearchTest_testSearchingWikiJavaPage - 2018.10.07 at 20h 29m 38s.xml">
+      <configuration name="WikiSearchTest.testSearchingWikiJavaPage" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2708018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,11 +672,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.299509" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -663,65 +705,13 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/Sandbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_selenium_project/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_selenium_project/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/OpenChromeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/OpenFirefoxText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByFireFox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,22 +719,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="31" lean-forward="true" selection-start-line="13" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByBrowsers.java" />
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson1/Sandbox.java" />
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson1/Ebay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson1/OpenChromeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson1/OpenFirefoxText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework1/OpenWikiByBrowsers.java">
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/lesson2/WikiHomePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/homework2/WikiSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
