@@ -33,7 +33,7 @@
     <session id="1227974936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="2" />
@@ -42,33 +42,36 @@
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.52" value="3" />
           <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="1051" />
+          <entry key="JAVA" value="2223" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="5" />
-          <entry key="java" value="34" />
+          <entry key="java" value="41" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="11" />
           <entry key="gradle" value="5" />
-          <entry key="java" value="1051" />
+          <entry key="java" value="2223" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="41" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -77,23 +80,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupCreationTests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactModificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactDeletionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -690,7 +699,14 @@
         <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/lesson2/WikiHomePageTests.java" />
         <option value="$PROJECT_DIR$/first_selenium_project/src/test/java/com/telran/qa15/sandbox/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/LoginTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupModificationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/DeleteGroupTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactDeletionTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactModificationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactCreationTests.java" />
       </list>
     </option>
   </component>
@@ -747,6 +763,14 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook_selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -754,7 +778,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539717156333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539793047811" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../etarQa15Class" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -764,6 +788,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telran.addressbook" />
       <recent name="com.telran.qa15.lesson2" />
     </key>
   </component>
@@ -779,18 +804,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WikiHomePageTests.TestOpeningEnglishWiki">
-    <configuration name="Ebay.openTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
+  <component name="RunManager" selected="TestNG.ContactDeletionTests.testContactDeletion">
+    <configuration name="ContactCreationTests.testContactCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.qa15.sandbox.lesson1.*" />
+          <option name="PATTERN" value="com.telran.addressbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.sandbox" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.lesson1.Ebay" />
-      <option name="METHOD_NAME" value="openTest" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.ContactCreationTests" />
+      <option name="METHOD_NAME" value="testContactCreation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -798,17 +823,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTrelloTest.testLoginToTheTrello" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
+    <configuration name="ContactDeletionTests.testContactDeletion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.qa15.sandbox.lesson4.refactoring.*" />
+          <option name="PATTERN" value="com.telran.addressbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.sandbox.lesson4.refactoring" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.lesson4.refactoring.LoginTrelloTest" />
-      <option name="METHOD_NAME" value="testLoginToTheTrello" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.ContactDeletionTests" />
+      <option name="METHOD_NAME" value="testContactDeletion" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -816,33 +841,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikiHomePageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
+    <configuration name="ContactModificationTests.testContactModification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.qa15.sandbox.*" />
+          <option name="PATTERN" value="com.telran.addressbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.lesson2" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.lesson2.WikiHomePageTests" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.qa15.sandbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.lesson2" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.lesson2.WikiHomePageTests" />
-      <option name="METHOD_NAME" value="TestOpeningEnglishWiki" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.ContactModificationTests" />
+      <option name="METHOD_NAME" value="testContactModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -850,17 +859,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikiSearchTest.testSearchingWikiJavaPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_selenium_project_test" />
+    <configuration name="GroupDeletionTests.testGroupDeletion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.qa15.sandbox.homework2.*" />
+          <option name="PATTERN" value="com.telran.addressbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa15.homework2" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa15.sandbox.homework2.WikiSearchTest" />
-      <option name="METHOD_NAME" value="testSearchingWikiJavaPage" />
+      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.GroupDeletionTests" />
+      <option name="METHOD_NAME" value="testGroupDeletion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.GroupModificationTests" />
+      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -869,19 +896,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Ebay.openTest" />
-      <item itemvalue="TestNG.WikiHomePageTests.TestOpeningEnglishWiki" />
-      <item itemvalue="TestNG.WikiHomePageTests" />
-      <item itemvalue="TestNG.WikiSearchTest.testSearchingWikiJavaPage" />
-      <item itemvalue="TestNG.LoginTrelloTest.testLoginToTheTrello" />
+      <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+      <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
+      <item itemvalue="TestNG.ContactCreationTests.testContactCreation" />
+      <item itemvalue="TestNG.ContactModificationTests.testContactModification" />
+      <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WikiHomePageTests.TestOpeningEnglishWiki" />
-        <item itemvalue="TestNG.WikiSearchTest.testSearchingWikiJavaPage" />
-        <item itemvalue="TestNG.LoginTrelloTest.testLoginToTheTrello" />
-        <item itemvalue="TestNG.WikiHomePageTests" />
-        <item itemvalue="TestNG.Ebay.openTest" />
+        <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
+        <item itemvalue="TestNG.ContactModificationTests.testContactModification" />
+        <item itemvalue="TestNG.ContactCreationTests.testContactCreation" />
+        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+        <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -899,35 +926,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 45m 10s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.17 at 16h 54m 55s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 45m 31s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="GroupModificationTests_testGroupModification - 2018.10.17 at 16h 55m 22s.xml">
+      <configuration name="GroupModificationTests.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 46m 43s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.17 at 16h 55m 49s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 47m 22s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="DeleteGroupTests_testGroupDeletion - 2018.10.17 at 16h 56m 51s.xml">
+      <configuration name="DeleteGroupTests.testGroupDeletion" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 48m 41s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="GroupModificationTests_testGroupModification - 2018.10.17 at 16h 57m 27s.xml">
+      <configuration name="GroupModificationTests.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 49m 43s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="ContactCreationTests_testContactCreation - 2018.10.17 at 17h 48m 00s.xml">
+      <configuration name="ContactCreationTests.testContactCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 50m 00s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="ContactModificationTests_testContactModification - 2018.10.17 at 18h 32m 30s.xml">
+      <configuration name="ContactModificationTests.testContactModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 53m 42s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="ContactModificationTests_testContactModification - 2018.10.17 at 18h 38m 04s.xml">
+      <configuration name="ContactModificationTests.testContactModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 56m 11s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_testContactDeletion - 2018.10.17 at 19h 07m 55s.xml">
+      <configuration name="ContactDeletionTests.testContactDeletion" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WikiHomePageTests_TestOpeningEnglishWiki - 2018.10.09 at 22h 56m 47s.xml">
-      <configuration name="WikiHomePageTests.TestOpeningEnglishWiki" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_testContactDeletion - 2018.10.17 at 19h 16m 55s.xml">
+      <configuration name="ContactDeletionTests.testContactDeletion" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -943,7 +970,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31996974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -952,14 +979,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5090016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.40425533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.5090016" />
       <window_info anchor="bottom" id="Build" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -972,6 +999,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32526475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.40425533" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.5090016" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1083,18 +1140,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state>
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2093#2094#0" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

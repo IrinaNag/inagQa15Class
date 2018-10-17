@@ -1,18 +1,17 @@
 package com.telran.addressbook;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-import java.util.concurrent.TimeUnit;
+public class GroupCreationTests extends TestBase{
 
-public class GroupCreationTests {
-    WebDriver wd;
+    @Test
+    public void testGroupCreation() {
+        openGroupsPage();
+        initGroupCreation();
+        fillGroupForm("QA15", "header", "footer");
+        submitGroupCreation();
+        returnToGroupsPage();
 
-    @BeforeClass
-    public void setUp(){
-        wd=new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        wd.get("http://localhost/addressbook/");
     }
+
 }
