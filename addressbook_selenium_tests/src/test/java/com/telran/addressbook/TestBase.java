@@ -146,8 +146,8 @@ public class TestBase {
 
     private void creatContact() {
         initContactCreation();
-        fillContactForm(Contact.builder().name("name").lastName("lastName").address("address")
-                .phone("0000000000").email("email@domen.com").build());
+        fillContactForm(new Contact().setName("name").setLastName("lastName").setAddress("address")
+                .setPhone("0000000000").setEmail("email@domen.com"));
         submitContactCreation();
     }
 

@@ -13,7 +13,8 @@ public class ContactModificationTests extends TestBase {
     @Test
     public void testContactModification() {
         initContactModification();
-        fillContactForm(new Contact("newName", "newLastName", "newAddress", "1111111111", "newEmail@domain.com"));
+        fillContactForm(new Contact().setName("newName").setLastName("newLastName").setAddress("newAddress")
+                .setPhone("1111111111").setEmail("newEmail@domain.com"));
         submitContactModification();
     }
 
