@@ -7,9 +7,9 @@ public class ContactCreationTests extends TestBase {
     @Test
     public void testContactCreation() {
         initContactCreation();
-        fillContactForm("name", "lastName", "address", "0000000000", "email@domen.com");
+        fillContactForm(Contact.builder().name("name").lastName("lastName").address("address")
+                .phone("0000000000").email("email@domen.com").build());
         submitContactCreation();
-
     }
 
 }

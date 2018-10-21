@@ -1,9 +1,15 @@
 package com.telran.addressbook;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class GroupDeletionTests extends TestBase {
+
+    @BeforeMethod
+    public void preconditions(){
+        groupPreconditions();
+    }
 
     @Test
     public void testGroupDeletion(){
@@ -13,7 +19,4 @@ public class GroupDeletionTests extends TestBase {
         returnToGroupsPage();
     }
 
-    public void deleteGroupe() {
-        wd.findElement(By.name("delete")).click();
-    }
 }

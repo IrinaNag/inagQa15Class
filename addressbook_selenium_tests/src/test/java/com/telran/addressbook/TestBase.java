@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -45,10 +46,10 @@ public class TestBase {
         wd.findElement(By.name("submit")).click();
     }
 
-    public void fillGroupForm(String groupName, String groupHeader, String groupFooter) {
-        type(By.name("group_name"), groupName);
-        type(By.name("group_header"), groupHeader);
-        type(By.name("group_footer"), groupFooter);
+    public void fillGroupForm(Group group) {
+        type(By.name("group_name"), group.getGroupName());
+        type(By.name("group_header"), group.getGroupHeader());
+        type(By.name("group_footer"), group.getGroupFooter());
     }
 
     public void initGroupCreation() {
@@ -76,12 +77,12 @@ public class TestBase {
         wd.findElement(By.cssSelector("[name='submit']:last-child")).click();
     }
 
-    protected void fillContactForm(String name, String lastName, String address, String phone, String email) {
-        type(By.name("firstname"), name);
-        type(By.name("lastname"), lastName);
-        type(By.name("address"), address);
-        type(By.name("mobile"), phone);
-        type(By.name("email"), email);
+    protected void fillContactForm(Contact contact) {
+        type(By.name("firstname"), contact.getName());
+        type(By.name("lastname"), contact.getLastName());
+        type(By.name("address"), contact.getAddress());
+        type(By.name("mobile"), contact.getPhone());
+        type(By.name("email"), contact.getEmail());
     }
 
     public void initContactCreation() {
@@ -105,4 +106,49 @@ public class TestBase {
     public void selectContact() {
         wd.findElement(By.name("selected[]")).click();
     }
+
+    public void deleteGroupe() {
+        wd.findElement(By.name("delete")).click();
+    }
+
+    public boolean isElementPresent(By locator){
+        try {
+            wd.findElement(locator);
+            return true;
+        }catch(NoSuchElementException e) {
+            return false;
+        }
+    }
+
+    public boolean isGroupPresent(){
+        return isElementPresent(By.name("selected[]"));
+    }
+
+    public void creatGroup() {
+        initGroupCreation();
+        fillGroupForm(new Group().setGroupName("QA15").setGroupHeader("header").setGroupFooter("footer"));
+        submitGroupCreation();
+        returnToGroupsPage();
+    }
+
+    public void groupPreconditions(){
+        openGroupsPage();
+        if(!isGroupPresent()){
+            creatGroup();
+        }
+    }
+
+    public void contactPreconditions(){
+        if(!isElementPresent(By.name("selected[]"))){
+            creatContact();
+        }
+    }
+
+    private void creatContact() {
+        initContactCreation();
+        fillContactForm(Contact.builder().name("name").lastName("lastName").address("address")
+                .phone("0000000000").email("email@domen.com").build());
+        submitContactCreation();
+    }
+
 }
