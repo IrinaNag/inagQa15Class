@@ -1,6 +1,5 @@
 package com.telran.addressbook;
 
-import lombok.*;
 
 public class Contact {
     private String name;

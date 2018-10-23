@@ -7,13 +7,13 @@ public class ContactDeletionTests extends TestBase {
 
     @BeforeMethod
     public void preconditions(){
-        contactPreconditions();
+        app.contactPreconditions();
     }
 
     @Test
     public void testContactDeletion() {
-        selectContact();
-        deleteContact();
+        app.selectContact();
+        app.deleteContact();
     }
 
 }
