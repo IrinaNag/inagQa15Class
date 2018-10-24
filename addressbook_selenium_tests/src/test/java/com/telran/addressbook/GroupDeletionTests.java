@@ -8,16 +8,16 @@ public class GroupDeletionTests extends TestBase {
 
     @BeforeMethod
     public void preconditions(){
-        app.groupPreconditions();
+        app.getGroupHelper().groupPreconditions();
     }
 
     @Test
     public void testGroupDeletion(){
-        app.openGroupsPage();
+        app.getGroupHelper().openGroupsPage();
         int before = app.countElements();
-        app.selectGroup();
+        app.getGroupHelper().selectGroup();
         app.deleteGroupe();
-        app.returnToGroupsPage();
+        app.getGroupHelper().returnToGroupsPage();
         int aftere = app.countElements();
         Assert.assertEquals(aftere,before-1);
     }

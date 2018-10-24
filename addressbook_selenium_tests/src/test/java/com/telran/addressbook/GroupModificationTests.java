@@ -8,18 +8,18 @@ public class GroupModificationTests extends TestBase {
 
     @BeforeMethod
     public void preconditions(){
-        app.groupPreconditions();
+        app.getGroupHelper().groupPreconditions();
     }
 
     @Test
     public void testGroupModification() {
-        app.openGroupsPage();
+        app.getGroupHelper().openGroupsPage();
         int before = app.countElements();
-        app.selectGroupByIndex(before-1);
-        app.initGroupModification();
-        app.fillGroupForm(new Group("modifyed", "newHeader", "newFooter"));
-        app.submitGroupModification();
-        app.returnToGroupsPage();
+        app.getGroupHelper().selectGroupByIndex(before-1);
+        app.getGroupHelper().initGroupModification();
+        app.getGroupHelper().fillGroupForm(new Group("modifyed", "newHeader", "newFooter"));
+        app.getGroupHelper().submitGroupModification();
+        app.getGroupHelper().returnToGroupsPage();
         int aftere = app.countElements();
         Assert.assertEquals(aftere,before);
 

@@ -1,21 +1,18 @@
-package com.telran.addressbook;
+package com.telran.trello;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class TestBase {
-
-    protected ApplicationManager app = new ApplicationManager();
+    ApplicationManager app=new ApplicationManager();
 
     @BeforeClass
-    public void setUp() {
+    public void setUp(){
         app.start();
     }
 
     @AfterClass
-    public void tearDown() {
+    public void tearDown(){
         app.stop();
     }
-
-
 }

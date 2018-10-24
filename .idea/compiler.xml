@@ -9,6 +9,10 @@
       <module name="addressbook_selenium_tests_test" target="1.8" />
       <module name="first_selenium_project_main" target="1.8" />
       <module name="first_selenium_project_test" target="1.8" />
+      <module name="IrinaQA15-trello_selenium_tests_main" target="1.8" />
+      <module name="IrinaQA15-trello_selenium_tests_test" target="1.8" />
+      <module name="trello_selenium_tests_main" target="1.8" />
+      <module name="trello_selenium_tests_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
