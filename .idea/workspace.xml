@@ -65,7 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="18" />
-          <entry key="JAVA" value="4107" />
+          <entry key="JAVA" value="4111" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -80,7 +80,7 @@
         <counts>
           <entry key="dummy" value="11" />
           <entry key="gradle" value="18" />
-          <entry key="java" value="4107" />
+          <entry key="java" value="4111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -95,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello_selenium_tests/src/test/java/com/telran/trello/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
@@ -109,13 +109,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trello_selenium_tests/src/test/java/com/telran/trello/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state>
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1084,7 +1086,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540380834602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540386063743" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -1240,18 +1242,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_testLogin - 2018.10.24 at 11h 53m 32s.xml">
-      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_testLogin - 2018.10.24 at 11h 54m 57s.xml">
-      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_testLogin - 2018.10.24 at 12h 13m 01s.xml">
-      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_testLogin - 2018.10.24 at 12h 19m 52s.xml">
-      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTests_testLogin - 2018.10.24 at 13h 51m 33s.xml">
       <configuration name="LoginTests.testLogin" configurationId="TestNG" />
     </history-entry>
@@ -1268,6 +1258,18 @@
       <configuration name="LoginTests.testLogin" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginTests_testLogin - 2018.10.24 at 14h 33m 37s.xml">
+      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testLogin - 2018.10.24 at 15h 25m 44s.xml">
+      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testLogin - 2018.10.24 at 15h 32m 09s.xml">
+      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testLogin - 2018.10.24 at 15h 46m 02s.xml">
+      <configuration name="LoginTests.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testLogin - 2018.10.24 at 15h 57m 31s.xml">
       <configuration name="LoginTests.testLogin" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1619,24 +1621,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello_selenium_tests/src/test/java/com/telran/trello/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello_selenium_tests/src/test/java/com/telran/trello/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello_selenium_tests/src/test/java/com/telran/trello/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>

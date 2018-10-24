@@ -9,12 +9,10 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginTests extends TestBase {
 
-/*
    @BeforeMethod
     public void preconditions(){
         app.logout();
     }
-*/
 
     @Test
     public void testLogin() throws InterruptedException {

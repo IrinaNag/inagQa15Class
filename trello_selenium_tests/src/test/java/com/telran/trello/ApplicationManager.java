@@ -23,15 +23,16 @@ public class ApplicationManager {
 
     public void start() {
         wd=new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         wd.get("https://trello.com/");
-//        login();
+        login();
     }
 
     private void login() {
         initLogin();
         fillLoginForm(new Account().seteMail("nagornovai@mail.ru").setPassword("987654321"));
         submitLogin();
+        waitLoadingPage();
     }
 
     public void stop() {
