@@ -7,21 +7,21 @@ import org.testng.annotations.Test;
 public class GroupModificationTests extends TestBase {
 
     @BeforeMethod
-    public void preconditions(){
+    public void preconditions() {
         app.getGroupHelper().groupPreconditions();
     }
 
     @Test
     public void testGroupModification() {
         app.getGroupHelper().openGroupsPage();
-        int before = app.countElements();
-        app.getGroupHelper().selectGroupByIndex(before-1);
+        int before = app.groupHelper.countElements();
+        app.getGroupHelper().selectGroupByIndex(before - 1);
         app.getGroupHelper().initGroupModification();
         app.getGroupHelper().fillGroupForm(new Group("modifyed", "newHeader", "newFooter"));
         app.getGroupHelper().submitGroupModification();
         app.getGroupHelper().returnToGroupsPage();
-        int aftere = app.countElements();
-        Assert.assertEquals(aftere,before);
+        int after = app.groupHelper.countElements();
+        Assert.assertEquals(after, before);
 
     }
 

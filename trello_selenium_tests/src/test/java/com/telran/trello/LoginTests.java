@@ -14,7 +14,7 @@ public class LoginTests extends TestBase {
         app.logout();
     }
 
-    
+
     @Test
     public void testLogin() throws InterruptedException {
         app.initLogin();

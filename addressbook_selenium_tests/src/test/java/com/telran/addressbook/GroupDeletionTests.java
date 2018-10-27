@@ -7,19 +7,19 @@ import org.testng.annotations.Test;
 public class GroupDeletionTests extends TestBase {
 
     @BeforeMethod
-    public void preconditions(){
+    public void preconditions() {
         app.getGroupHelper().groupPreconditions();
     }
 
     @Test
-    public void testGroupDeletion(){
+    public void testGroupDeletion() {
         app.getGroupHelper().openGroupsPage();
-        int before = app.countElements();
+        int before = app.groupHelper.countElements();
         app.getGroupHelper().selectGroup();
-        app.deleteGroupe();
+        app.groupHelper.deleteGroupe();
         app.getGroupHelper().returnToGroupsPage();
-        int aftere = app.countElements();
-        Assert.assertEquals(aftere,before-1);
+        int after = app.groupHelper.countElements();
+        Assert.assertEquals(after, before - 1);
     }
 
 }

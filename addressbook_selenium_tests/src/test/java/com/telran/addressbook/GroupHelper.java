@@ -1,24 +1,16 @@
 package com.telran.addressbook;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
-public class GroupHelper {
-    WebDriver wd;
+public class GroupHelper extends HelperBase {
 
-    public void type(By locator, String str) {
-        click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(str);
+    public GroupHelper(WebDriver wd) {
+        super(wd);
     }
 
     public void returnToGroupsPage() {
         click(By.cssSelector("i [href='group.php']"));
-    }
-
-    public void click(By locator) {
-        wd.findElement(locator).click();
     }
 
     public void submitGroupCreation() {
@@ -51,16 +43,7 @@ public class GroupHelper {
         click(By.name("selected[]"));
     }
 
-    public boolean isElementPresent(By locator){
-        try {
-            wd.findElement(locator);
-            return true;
-        }catch(NoSuchElementException e) {
-            return false;
-        }
-    }
-
-    public boolean isGroupPresent(){
+    public boolean isGroupPresent() {
         return isElementPresent(By.name("selected[]"));
     }
 
@@ -71,9 +54,9 @@ public class GroupHelper {
         returnToGroupsPage();
     }
 
-    public void groupPreconditions(){
+    public void groupPreconditions() {
         openGroupsPage();
-        if(!isGroupPresent()){
+        if (!isGroupPresent()) {
             creatGroup();
         }
     }
@@ -81,4 +64,9 @@ public class GroupHelper {
     public void selectGroupByIndex(int index) {
         wd.findElements(By.name("selected[]")).get(index).click();
     }
+
+    public void deleteGroupe() {
+        click(By.name("delete"));
+    }
+
 }

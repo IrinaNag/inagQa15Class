@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     WebDriver wd;
+    WebDriverWait wait;
 
     public void click(By locator) {
         wd.findElement(locator).click();
@@ -25,12 +26,12 @@ public class ApplicationManager {
         wd=new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         wd.get("https://trello.com/");
-        login();
+        login(new Account().seteMail("nagornovai@mail.ru").setPassword("987654321"));
     }
 
-    private void login() {
+    private void login(Account account) {
         initLogin();
-        fillLoginForm(new Account().seteMail("nagornovai@mail.ru").setPassword("987654321"));
+        fillLoginForm(account);
         submitLogin();
         waitLoadingPage();
     }
@@ -62,7 +63,7 @@ public class ApplicationManager {
     }
 
     public void waitLoadingPage() {
-        WebDriverWait wait=new WebDriverWait(wd, 5);
+        wait=new WebDriverWait(wd, 5);
         wait.until(ExpectedConditions.urlContains("boards"));
     }
 }

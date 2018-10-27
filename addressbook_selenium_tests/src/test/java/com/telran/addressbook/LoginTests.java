@@ -13,14 +13,14 @@ public class LoginTests {
     WebDriver wd;
 
     @BeforeClass
-    public void setUp(){
-        wd=new ChromeDriver();
+    public void setUp() {
+        wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook/");
     }
 
     @Test
-    public void testLogin(){
+    public void testLogin() {
         wd.findElement(By.name("user")).click();
         wd.findElement(By.name("user")).clear();
         wd.findElement(By.name("user")).sendKeys("admin");
@@ -31,7 +31,7 @@ public class LoginTests {
     }
 
     @AfterClass
-    public void tearDoun(){
+    public void tearDoun() {
         wd.quit();
     }
 }

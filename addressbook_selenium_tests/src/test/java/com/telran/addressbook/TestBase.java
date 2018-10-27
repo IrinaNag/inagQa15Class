@@ -1,18 +1,17 @@
 package com.telran.addressbook;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
 
 public class TestBase {
 
-    protected ApplicationManager app = new ApplicationManager();
+    protected static ApplicationManager app = new ApplicationManager();
 
-    @BeforeClass
+    @BeforeSuite
     public void setUp() {
         app.start();
     }
 
-    @AfterClass
+    @AfterSuite
     public void tearDown() {
         app.stop();
     }
