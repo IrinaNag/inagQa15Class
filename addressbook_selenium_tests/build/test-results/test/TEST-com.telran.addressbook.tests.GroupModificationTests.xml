@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-02T10:03:49" hostname="Irishka" time="1.916">
+  <properties/>
+  <testcase name="testGroupModification" classname="com.telran.addressbook.tests.GroupModificationTests" time="1.916"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

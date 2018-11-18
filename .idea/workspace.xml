@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fe81e4b-5a5c-4a92-ba33-f94051ba6f0b" name="Default Changelist" comment="" />
+    <list default="true" id="8fe81e4b-5a5c-4a92-ba33-f94051ba6f0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook_selenium_tests_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook_selenium_tests_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/ApplicationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/ContactCreationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/ContactDeletionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/ContactHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/ContactModificationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/GroupCreationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/GroupDeletionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/GroupHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/GroupModificationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/HelperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/LoginTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/SessionHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/out/test/classes/com/telran/addressbook/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ApplicationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactCreationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactDeletionTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactModificationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupCreationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupDeletionTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupModificationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/HelperBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/SessionHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/first_selenium_project/.gradle/" />
     <ignored path="$PROJECT_DIR$/first_selenium_project/build/" />
     <ignored path="$PROJECT_DIR$/first_selenium_project/out/" />
@@ -44,10 +78,12 @@
     <session id="1227974936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.245" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.44" value="3" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="4" />
           <entry key="project.open.time.48" value="2" />
@@ -62,35 +98,41 @@
           <entry key="project.open.time.63" value="2" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="18" />
-          <entry key="JAVA" value="4348" />
+          <entry key="Groovy" value="120" />
+          <entry key="JAVA" value="4527" />
           <entry key="PLAIN_TEXT" value="11" />
+          <entry key="XML" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="14" />
-          <entry key="java" value="131" />
+          <entry key="gradle" value="17" />
+          <entry key="html" value="2" />
+          <entry key="java" value="149" />
           <entry key="md" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="gradle" value="18" />
-          <entry key="java" value="4348" />
+          <entry key="gradle" value="120" />
+          <entry key="java" value="4527" />
+          <entry key="xml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="14" />
-          <entry key="JAVA" value="131" />
+          <entry key="Groovy" value="17" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="149" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -98,15 +140,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="115" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/GroupCreationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/GroupModificationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/GroupDeletionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -118,6 +230,7 @@
       <list>
         <option value="TestNG Test Class" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -620,9 +733,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/addressbook_selenium_tests" value="6159214917715" />
+        <entry key="$PROJECT_DIR$/addressbook_selenium_tests" value="6160305835664" />
         <entry key="$PROJECT_DIR$/addressbook_selenium_tests/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" value="4264047211" />
+        <entry key="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" value="4285702594" />
         <entry key="$PROJECT_DIR$/addressbook_selenium_tests/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/addressbook_selenium_tests/settings.gradle" value="3433152694" />
         <entry key="$PROJECT_DIR$/first_selenium_project" value="6153297202138" />
@@ -971,7 +1084,6 @@
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/main/java/MyClass.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/MyClassTest.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/Group.java" />
-        <option value="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/Contact.java" />
         <option value="$PROJECT_DIR$/trello_selenium_tests/src/test/java/com/telran/trello/TestBase.java" />
         <option value="$PROJECT_DIR$/trello_selenium_tests/build.gradle" />
@@ -989,8 +1101,14 @@
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/HelperBase.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/LoginTests.java" />
-        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/build.gradle" />
+        <option value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/TestBase.java" />
       </list>
     </option>
   </component>
@@ -1020,8 +1138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1038,31 +1154,18 @@
               <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="addressbook_selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook_selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_selenium_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook_selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540665288735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542265699079" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -1075,6 +1178,11 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.telran.addressbook.tests" />
+      <recent name="com.telran.addressbook.model" />
+      <recent name="com.telran.addressbook.manager" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -1096,54 +1204,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.com.telran.addressbook">
+  <component name="RunManager" selected="TestNG.C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml">
+    <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/addressbook_selenium_tests/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook_selenium_tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.addressbook.*" />
+          <option name="PATTERN" value="com.telran.addressbook.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.GroupCreationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.tests.GroupCreationTests" />
       <option name="METHOD_NAME" value="testGroupCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupDeletionTests.testGroupDeletion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook_selenium_tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.addressbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.GroupDeletionTests" />
-      <option name="METHOD_NAME" value="testGroupDeletion" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook_selenium_tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.addressbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.addressbook.GroupModificationTests" />
-      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -1185,20 +1274,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.telran.addressbook.tests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_selenium_tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.addressbook.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
       <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
-      <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
       <item itemvalue="TestNG.LoginTests.testLogin" />
       <item itemvalue="TestNG.com.telran.addressbook" />
+      <item itemvalue="TestNG.com.telran.addressbook.tests" />
+      <item itemvalue="TestNG.C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.com.telran.addressbook.tests" />
         <item itemvalue="TestNG.com.telran.addressbook" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
         <item itemvalue="TestNG.LoginTests.testLogin" />
-        <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
-        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
       </list>
     </recent_temporary>
   </component>
@@ -1216,35 +1321,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.26 at 13h 11m 01s.xml">
-      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 22m 14s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.26 at 13h 12m 51s.xml">
-      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 24m 14s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.26 at 13h 15m 38s.xml">
-      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 32m 09s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.26 at 13h 19m 47s.xml">
-      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 34m 58s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.26 at 13h 41m 50s.xml">
-      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 37m 01s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_testGroupCreation - 2018.10.26 at 13h 43m 36s.xml">
-      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 39m 36s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="com_telran_addressbook - 2018.10.27 at 19h 04m 02s.xml">
-      <configuration name="com.telran.addressbook" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 40m 24s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="com_telran_addressbook - 2018.10.27 at 19h 53m 43s.xml">
-      <configuration name="com.telran.addressbook" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 42m 17s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="com_telran_addressbook - 2018.10.27 at 20h 12m 33s.xml">
-      <configuration name="com.telran.addressbook" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.02 at 11h 43m 39s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="com_telran_addressbook - 2018.10.27 at 21h 29m 02s.xml">
-      <configuration name="com.telran.addressbook" configurationId="TestNG" />
+    <history-entry file="C__Users_Irina_Documents_GitHub_inagQa15Class_addressbook_selenium_tests_src_test_resources_testng_xml - 2018.11.03 at 10h 26m 15s.xml">
+      <configuration name="C:/Users/Irina/Documents/GitHub/inagQa15Class/addressbook_selenium_tests/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1260,7 +1365,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.301059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1269,7 +1374,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4222586" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4222586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3878887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1279,6 +1384,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.5090016" />
       <window_info anchor="bottom" id="Build" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1395,22 +1501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/MyClassTest.java" />
     <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/main/java/MyClass.java" />
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="14" selection-end-line="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trello_selenium_tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1479,12 +1571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,9 +1578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1502,171 +1585,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/Contact.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/model/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactDeletionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/ContactModificationTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/ContactModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/model/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/ContactDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupDeletionTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/ContactCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupHelper.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/ContactHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state relative-caret-position="322">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
           <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#2013#2014#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/GroupModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/LoginTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-          </folding>
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/SessionHelper.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="255">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="8" column="115" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/GroupModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/manager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/src/test/java/com/telran/addressbook/tests/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook_selenium_tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
