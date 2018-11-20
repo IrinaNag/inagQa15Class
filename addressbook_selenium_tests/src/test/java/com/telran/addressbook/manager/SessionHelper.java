@@ -15,9 +15,4 @@ public class SessionHelper extends HelperBase {
         click(By.cssSelector("[type='submit']"));
     }
 
-    public void openSite(String url) {
-        wd.get(url);
-    }
-
-
 }

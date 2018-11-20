@@ -16,7 +16,7 @@ public class LoginTests {
     public void setUp() {
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wd.get("http://localhost/addressbook/");
+        wd.get("http://localhost/com.telran.addressbook/");
     }
 
     @Test (enabled = false)

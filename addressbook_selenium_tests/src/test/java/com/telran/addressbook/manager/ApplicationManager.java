@@ -12,6 +12,7 @@ public class ApplicationManager {
     public GroupHelper groupHelper;
     public ContactHelper contactHelper;
     public SessionHelper sessionHelper;
+    public NavigationHelper navigationHelper;
     private WebDriver wd;
     private String browser;
 
@@ -29,7 +30,8 @@ public class ApplicationManager {
         }
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         sessionHelper = new SessionHelper(wd);
-        sessionHelper.openSite("http://localhost/addressbook/");
+        navigationHelper=new NavigationHelper(wd);
+        navigationHelper.openSite("http://localhost/com.telran.addressbook/");
         sessionHelper.login("admin", "secret");
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
@@ -52,4 +54,6 @@ public class ApplicationManager {
     public SessionHelper getSessionHelper() {
         return sessionHelper;
     }
+
+    public NavigationHelper getNavigationHelper() { return navigationHelper; }
 }
