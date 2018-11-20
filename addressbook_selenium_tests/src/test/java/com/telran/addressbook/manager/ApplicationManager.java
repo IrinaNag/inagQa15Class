@@ -31,7 +31,7 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         sessionHelper = new SessionHelper(wd);
         navigationHelper=new NavigationHelper(wd);
-        navigationHelper.openSite("http://localhost/com.telran.addressbook/");
+        navigationHelper.openSite("http://localhost/addressbook/");
         sessionHelper.login("admin", "secret");
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
